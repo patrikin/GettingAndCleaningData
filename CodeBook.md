@@ -1,0 +1,155 @@
+Codebook for 'Getting and Cleaning data' course project
+
+This codebook is an extension to the assignment's codebook file 'features_info.txt'.
+See file 'features_info.txt' for additional details of feature selection.
+
+Description of data:
+File 'meansAndStandardDeviationsOnly.csv' contains means and standard deviations from the combined files 'X_train.txt' and 'X_test.txt'.
+The variable names were altered as follows.
+The original variable names in 'X_train.txt' and 'X_test.txt' were trimmed after the first '-',
+and the suffix 'Mean' was added to indicate a mean value, and suffix 'Std' was added to indicate a standard deviation value, respectively.
+Variable names are as follows:
+
+fBodyAccJerkXMean
+fBodyAccJerkXStd
+fBodyAccJerkYMean
+fBodyAccJerkYStd
+fBodyAccJerkZMean
+fBodyAccJerkZStd
+fBodyAccMagMean
+fBodyAccMagStd
+fBodyAccXMean
+fBodyAccXStd
+fBodyAccYMean
+fBodyAccYStd
+fBodyAccZMean
+fBodyAccZStd
+fBodyBodyAccJerkMagMean
+fBodyBodyAccJerkMagStd
+fBodyBodyGyroJerkMagMean
+fBodyBodyGyroJerkMagStd
+fBodyBodyGyroMagMean
+fBodyBodyGyroMagStd
+fBodyGyroXMean
+fBodyGyroXStd
+fBodyGyroYMean
+fBodyGyroYStd
+fBodyGyroZMean
+fBodyGyroZStd
+tBodyAccJerkMagMean
+tBodyAccJerkMagStd
+tBodyAccJerkXMean
+tBodyAccJerkXStd
+tBodyAccJerkYMean
+tBodyAccJerkYStd
+tBodyAccJerkZMean
+tBodyAccJerkZStd
+tBodyAccMagMean
+tBodyAccMagStd
+tBodyAccXMean
+tBodyAccXStd
+tBodyAccYMean
+tBodyAccYStd
+tBodyAccZMean
+tBodyAccZStd
+tBodyGyroJerkMagMean
+tBodyGyroJerkMagStd
+tBodyGyroJerkXMean
+tBodyGyroJerkXStd
+tBodyGyroJerkYMean
+tBodyGyroJerkYStd
+tBodyGyroJerkZMean
+tBodyGyroJerkZStd
+tBodyGyroMagMean
+tBodyGyroMagStd
+tBodyGyroXMean
+tBodyGyroXStd
+tBodyGyroYMean
+tBodyGyroYStd
+tBodyGyroZMean
+tBodyGyroZStd
+tGravityAccMagMean
+tGravityAccMagStd
+tGravityAccXMean
+tGravityAccXStd
+tGravityAccYMean
+tGravityAccYStd
+tGravityAccZMean
+tGravityAccZStd
+
+File 'meansAndStandardDeviationsOnlyAverageForEachSubject.csv' contains the average value for each variable
+for each subject. Information about which rows correspond to which subject, was taken 
+from files 'subject_train.txt' and 'subject_test.txt'.
+Variable names are:
+1. 'Subject', indicating the subject.
+2. As for dataset 'meansAndStandardDeviationsOnly.csv' from above, 'Average' was appended to each variable name
+indicating that the new variables represent averages.
+Variable names are as follows:
+
+Subject
+fBodyAccJerkXMeanAverage
+fBodyAccJerkXStdAverage
+fBodyAccJerkYMeanAverage
+fBodyAccJerkYStdAverage
+fBodyAccJerkZMeanAverage
+fBodyAccJerkZStdAverage
+fBodyAccMagMeanAverage
+fBodyAccMagStdAverage
+fBodyAccXMeanAverage
+fBodyAccXStdAverage
+fBodyAccYMeanAverage
+fBodyAccYStdAverage
+fBodyAccZMeanAverage
+fBodyAccZStdAverage
+fBodyBodyAccJerkMagMeanAverage
+fBodyBodyAccJerkMagStdAverage
+fBodyBodyGyroJerkMagMeanAverage
+fBodyBodyGyroJerkMagStdAverage
+fBodyBodyGyroMagMeanAverage
+fBodyBodyGyroMagStdAverage
+fBodyGyroXMeanAverage
+fBodyGyroXStdAverage
+fBodyGyroYMeanAverage
+fBodyGyroYStdAverage
+fBodyGyroZMeanAverage
+fBodyGyroZStdAverage
+tBodyAccJerkMagMeanAverage
+tBodyAccJerkMagStdAverage
+tBodyAccJerkXMeanAverage
+tBodyAccJerkXStdAverage
+tBodyAccJerkYMeanAverage
+tBodyAccJerkYStdAverage
+tBodyAccJerkZMeanAverage
+tBodyAccJerkZStdAverage
+tBodyAccMagMeanAverage
+tBodyAccMagStdAverage
+tBodyAccXMeanAverage
+tBodyAccXStdAverage
+tBodyAccYMeanAverage
+tBodyAccYStdAverage
+tBodyAccZMeanAverage
+tBodyAccZStdAverage
+tBodyGyroJerkMagMeanAverage
+tBodyGyroJerkMagStdAverage
+tBodyGyroJerkXMeanAverage
+tBodyGyroJerkXStdAverage
+tBodyGyroJerkYMeanAverage
+tBodyGyroJerkYStdAverage
+tBodyGyroJerkZMeanAverage
+tBodyGyroJerkZStdAverage
+tBodyGyroMagMeanAverage
+tBodyGyroMagStdAverage
+tBodyGyroXMeanAverage
+tBodyGyroXStdAverage
+tBodyGyroYMeanAverage
+tBodyGyroYStdAverage
+tBodyGyroZMeanAverage
+tBodyGyroZStdAverage
+tGravityAccMagMeanAverage
+tGravityAccMagStdAverage
+tGravityAccXMeanAverage
+tGravityAccXStdAverage
+tGravityAccYMeanAverage
+tGravityAccYStdAverage
+tGravityAccZMeanAverage
+tGravityAccZStdAverage
